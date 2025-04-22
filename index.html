@@ -4,10 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina web Ejercicio 1</title>
+    <link rel="stylesheet" href="C:\Ejercicio1\style.css">
 </head>
 <body>
-    <h1>
-        
-    </h1>
+    <h1 class="header1"> Mi biografía</h1>
+    <br>
+    <p>
+        Esta es mi biografia, mi nombre es <span class="ek">Jean</span>
+        Este parrafo es de prueba, <span class="ek1">nada de lo que esta aqui sera usado</span>
+    </p>
+    <br>
+    <p>
+        Hola, necesito que rellenes un formulario para mi, con tus datos de tarjeta de credito XD
+    </p>
+    <form action="/formulario" method="POST">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="Nombre" placeholder="Ingrese su nombre :3">
+        <hr>
+        <label for="RUT">RUT:</label>
+        <input type="text" id="RUT" placeholder="Ingrese su RUT :3">
+        <hr>
+        <label for="Tarjeta">Tarjeta de credito:</label>
+        <input type="text" id="Tarjeta" placeholder="Digitos de tarjeta :3">
+        <input type="submit">Gracias :> </input>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Productos</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Habas</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>Peras</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>Poto</td>
+                <td>$50000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>$51500</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>

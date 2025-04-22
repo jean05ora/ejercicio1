@@ -1,0 +1,18 @@
+.header1{
+    color: red;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: 0;
+    height: 100;
+    display: grid;
+    place-items: center;
+}
+.ek1{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ek{
+    color: darkmagenta;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
