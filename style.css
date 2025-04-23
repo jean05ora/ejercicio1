@@ -3,8 +3,7 @@
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
-    margin: 0;
-    height: 100;
+    margin: 0px;
     display: grid;
     place-items: center;
 }
@@ -22,7 +21,7 @@
 }
 #fondo{
     background-image: url(John_Xina.webp);
-    height: 500px;
+    height: 350px;
     width: auto;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
