@@ -16,3 +16,26 @@
     color: darkmagenta;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.John_China{
+    border-style: solid;
+    border-color: brown;
+}
+#fondo{
+    background-image: url(John_Xina.webp);
+    height: 500px;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin: 0;
+    height: 50;
+    display: grid;
+    place-items: center;
+}
+.lista1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: violet;
+    border-style: dotted;
+    border-width: 2px;
+    background-color: bisque;
+    width: 250px;
+}
